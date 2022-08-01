@@ -1,0 +1,116 @@
+body{
+    margin-top: 10em;
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+   background-color: #fff;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: rgb(55, 55, 55);
+}
+.navbar-nav a {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+    text-transform: uppercase;
+    text-shadow: 0 2px 4px rgba(0,0,0, 0.5);
+}
+
+.navbar-nav .nav-item .nav-link {
+    margin: 0 13px;
+    color: #23a7ff;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link:active,
+.navbar-nav .nav-item .nav-link:focus
+{
+    color:#fff;
+    background: #23a7ff;
+}
+
+.navbar .navbar-brand {
+    color: #23a7ff;
+    font-size: 25px;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0,0,0, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: black   
+}
+
+.text {
+    color: black;
+    font-weight: 800;
+
+}
+
+nav button {
+    color: #fff;
+    border: 1px solid #fff;
+    background: transparent;
+    font-weight: 600;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav button:hover {
+    border-color: #23a7ff;
+    background: #23a7ff;
+}
+
+/* Section 1 */
+
+.container {
+    border: 0;
+}
+
+
+
+
+/* Footer */
+
+.footer {
+    /* margin-top: 50vw; */
+    color: white;
+    position: inherit;
+}
+
+.footer .border-highlight {
+    border-top: 1px solid var(--primary-color-highlight);
+}
+
+.footer span {
+    color: white;
+    padding-top: 2em;
+}
+
+footer .col-md-4 {
+    margin-left: 5em;
+}
+
+footer ul {
+    margin-right: 10em;
+}
+
+.bi-twitter {
+    color: white;
+}
+
+.bi-instagram {
+    color: white;
+}
+
+.bi-youtube {
+    color: white;
+}
+
+.bi-facebook {
+    color: white;
+}

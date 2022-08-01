@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Filipe Barbosa Jiu Jitsu</title>
+</head>
+<body>
+<body class = "d-flex flex-column min-vh-100">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">FILIPE BARBOSA <span class = "text">BJJ</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+          aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/why_jiu_jitsu/why_jiu_jitsu.html">Why Jiu Jitsu?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/classes/classes.html">Classes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/schedule/schedule.html">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <a class="btn btn-primary" href="/sign_in.html" role="button">JOIN NOW &#10003;</a>
+        </div>
+      </nav>
+
+    <!--  Form -->
+    <div class= "container mt-5">
+        <h1>Contact Me!</h1>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstName" required> 
+            </div>
+            <div class="col-md-6">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastName" required> 
+            </div>
+            <div class="col-md-8">
+                <label for="emailInfo" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="emailInfo" required>
+            </div>
+            <div class="col-md-4">
+                <label for="phoneNumber" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" id="phoneNumber" placeholder="+1 (608) 234-0007">
+            </div>
+            <div class="col-md-12">
+                <label for="comments" class="form-label">Commments, questions?</label>
+                <textarea class="form-control" id="comments" rows="3" required></textarea>
+            </div>
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+      <!-- Footer -->
+    <footer class="mt-auto footer bg-dark text-white">
+        <div class="container-custom d-flex justify-content-between align-items-center py-3 border-highlight">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="#" class="me-2 text-muted text-decoration-none">
+                    <span> &copy;  2022 Filipe Barbosa BJJ</span>
+                </a>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex text-white">
+                <li class="ms-4"><a class="text muted" href="#"><i class="bi bi-twitter"></i></a></li>
+                <li class="ms-4"><a class="text muted" href="#"><i class="bi bi-instagram"></i></a></li>
+                <li class="ms-4"><a class="text muted" href="#"><i class="bi bi-youtube"></i></a></li>
+                <li class="ms-4"><a class="text muted" href="#"><i class="bi bi-facebook"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
+</body>
+</html>            

@@ -1,0 +1,221 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   color: #fff; 
+}
+
+/* Navbar */
+.navbar-nav a {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+    text-transform: uppercase;
+    text-shadow: 0 2px 4px rgba(0,0,0, 0.5);
+}
+
+.navbar-nav .nav-item .nav-link {
+    margin: 0 13px;
+    color: #23a7ff;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link:active,
+.navbar-nav .nav-item .nav-link:focus
+{
+    color: #fff;
+    background: #23a7ff;
+}
+
+.navbar .navbar-brand {
+    color: #23a7ff;
+    font-size: 25px;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0,0,0, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: black   
+}
+
+.text {
+    color: black;
+    font-weight: 800;
+
+}
+
+nav button {
+    color: #fff;
+    background: transparent;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.btn {
+    border: 0;
+    margin: 0;
+    padding: 1vw;
+}
+
+nav button:hover {
+    border-color: #23a7ff;
+    background: #23a7ff;
+}
+
+/* Section 1 */
+
+.carousel-item {
+    height: 100vh;
+    min-width: 300px;
+}
+
+.bg-1 {
+    background-image: url(/images/yourNewHome.baf92255.jpg);
+    background-size: cover;
+}
+
+.bg-2 {
+    background-image: url(/images/filipeArmbarConnor.499ccab3.jpg);
+    background-size: cover;
+}
+
+.bg-3 {
+    background-image: url(/images/gallery4.c04316d0.jpg);
+    background-size: cover;
+}
+
+.carousel-caption {
+    z-index: 2;
+}
+
+.carousel-inner h5 {
+    font-size: 45px;
+    font-weight: 700;    
+    color: #23a7ff;
+    -webkit-text-stroke: 1px #fff;
+    letter-spacing: 1px;
+}
+
+
+
+.carousel-inner h6 {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.carousel-inner p {
+    margin-bottom: 5em;
+}
+
+.carousel-inner::before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background:rgba(0,0,0, 0.5);
+    z-index: 1;
+}
+
+.carousel-caption button {
+    position: absolute;
+    right: -12%;
+    bottom: 22%;
+    color: #fff;
+    border: 1px solid #fff;
+    background: transparent;
+    font-weight: 600;
+    padding: 20px;
+    font-family: monospace;
+    transition: .4s ease;
+}
+
+.carousel-caption button:hover {
+    border-color: #23a7ff;
+    background: #23a7ff;
+}
+
+.carousel-indicators {
+    bottom: 30px;
+}
+
+
+
+@media (max-width: 950px) {
+    .carousel-caption button {
+        position: initial;
+    }
+}
+
+@media (max-width: 850px) {
+    .carousel-inner h5 {
+        font-size: 35px;
+    }
+    .carousel-inner h6 {
+        font-size: 25px;
+    }
+    .carousel-caption button,
+    nav button {
+        padding: 10px;
+    }
+}
+
+
+/* Footer */
+
+.footer {
+    color: white;
+}
+
+.footer .border-highlight {
+    border-top: 1px solid var(--primary-color-highlight);
+}
+
+.footer span {
+    color: white;
+    padding-top: 2em;
+}
+
+footer .col-md-4 {
+    margin-left: 5em;
+}
+
+footer ul {
+    margin-right: 10em;
+}
+
+.bi-twitter {
+    color: white;
+}
+
+.bi-instagram {
+    color: white;
+}
+
+.bi-youtube {
+    color: white;
+}
+
+.bi-facebook {
+    color: white;
+}
+
+/* Sign up page */
+
+.vh-100 {
+    color: black;
+}
+
+/* Registration Form */
+
+.h-100 {
+    color: black;
+}
+
+.col {
+    margin-top: 2vw;
+}
